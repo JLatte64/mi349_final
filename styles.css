@@ -1,0 +1,60 @@
+@font-face
+{
+    font-family: Dizhitl;
+    src: url('../fonts/dizhitl-regular.ttf') format('truetype');
+}
+
+:root
+{
+    --about-vert: 30vw;
+    --about-hor: 30vh;
+}
+
+body 
+{
+    background-image: url('content/graytrees3.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    font-family: Dizhitl;
+    overflow: hidden;
+}
+
+.titlecard
+{
+    background-color: #F3F3F3;
+    height: -15vw;
+    width: 50vw;
+    max-width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    text-align: center;
+}
+
+.titlecard p
+{
+    margin: 10px;
+}
+
+h1
+{
+    font-family: Dizhitl;
+    font-style: initial;
+    font-weight: 500;
+    font-size: 2em;
+    margin: 0;
+}
+
+.about-button img
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 46vw;
+    height: 70vh;
+}
+
