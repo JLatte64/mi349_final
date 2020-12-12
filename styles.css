@@ -49,12 +49,50 @@ h1
     margin: 0;
 }
 
-.about-button img
+.about-button-outline
 {
     position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 46vw;
-    height: 70vh;
+    bottom: -1vh;
+    left: -1vw;
+    width: 0;
+    height: 0;
+    border-top: 40vh solid transparent;
+    border-left: 30vw solid white;
+    border-bottom: 40vh solid white;
+    border-right: 30vw solid transparent;
+}
+
+.about-button-inside
+{
+    position: absolute;
+    bottom: -40vh;
+    left: -30vw;
+    width: 0;
+    height: 0;
+    border-top: 33.3vh solid transparent;
+    border-left: 25vw solid red;
+    border-bottom: 33.3vh solid red;
+    border-right: 25vw solid transparent;
+}
+
+.landing-buttons h1
+{
+    position: absolute;
+    text-align: center;
+    font-size: 3em;
+    bottom: -3.5em;
+    left: -4em;
+    line-height: 1em;
+    color: #F3F3F3;
+}
+
+.landing-buttons section
+{
+    transition: 0.2s ease-in-out;
+}
+
+.landing-buttons section:hover
+{
+    transform: translate(1vw, -1vh);
 }
 
