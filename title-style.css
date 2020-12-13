@@ -1,15 +1,3 @@
-@font-face
-{
-    font-family: Dizhitl;
-    src: url('../fonts/dizhitl-regular.ttf') format('truetype');
-}
-
-:root
-{
-    --about-vert: 30vw;
-    --about-hor: 30vh;
-}
-
 body 
 {
     background-image: url('content/graytrees3.png');
@@ -17,7 +5,9 @@ body
     background-attachment: fixed;
     background-position: center;
     margin: 0;
-    font-family: Dizhitl;
+    font-family: 'Dizhitl Regular';
+    font-style: normal;
+    font-weight: normal;
     overflow: hidden;
 }
 
@@ -43,7 +33,7 @@ body
 
 h1
 {
-    font-family: 'Dizhitl Regular';
+    font-family: 'Dizhitl SemiBold';
     font-style: normal;
     font-weight: normal;
     font-size: 3em;
