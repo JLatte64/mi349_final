@@ -55,22 +55,6 @@ h1
     height: 100vh;
 }
 
-.landing-buttons h1
-{
-    position: absolute;
-    font-size: 6vh;
-    color: #F3F3F3;
-    overflow: hidden;
-    text-shadow: #303030 0 0 10px;
-    text-align: center;
-}
-
-.about-button h1
-{
-    top: 64%;
-    left: 5%;
-}
-
 .about-button:hover
 {
     transform: translate(-1%, 1%);
@@ -99,12 +83,6 @@ h1
     background-color: #5678F3;
     clip-path: polygon(0% 100%, 0% 0%, 100% 100%);
     transition: 0.2s;
-}
-
-.contact-button h1
-{
-    top: 10%;
-    left: 5%;
 }
 
 .contact-button:hover
@@ -136,14 +114,6 @@ h1
     transition: 0.2s;
 }
 
-.projects-button h1
-{
-    top: 60%;
-    left: 60%;
-    max-width: 50%;
-    max-height: 25%;
-}
-
 .projects-button:hover
 {
     transform: translate(1%, 1%);
@@ -173,4 +143,68 @@ h1
     background-color: #EABD20;
     clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
     transition: 0.2s;
+}
+
+.landing-buttons h1
+{
+    position: absolute;
+    font-size: 6vh;
+    color: #F3F3F3;
+    overflow: hidden;
+    text-shadow: #303030 0 0 10px;
+    text-align: center;
+}
+
+.about-button h1
+{
+    top: 64%;
+    left: 5%;
+}
+
+.contact-button h1
+{
+    top: 10%;
+    left: 5%;
+}
+
+.projects-button h1
+{
+    top: 60%;
+    left: 60%;
+    max-width: 50%;
+    max-height: 25%;
+}
+
+@media screen and (max-width: 900px)
+{
+    .landing-buttons h1
+    {
+        position: absolute;
+        font-size: 6vw;
+        color: #F3F3F3;
+        overflow: hidden;
+        text-shadow: #303030 0 0 10px;
+        text-align: center;
+        align-content: center;
+    }
+
+    .about-button h1
+    {
+        top: 64%;
+        left: 5%;
+    }
+
+    .contact-button h1
+    {
+        top: 10%;
+        left: 5%;
+    }
+
+    .projects-button h1
+    {
+        top: 65%;
+        left: 50%;
+        max-width: 50%;
+        max-height: 25%;
+    }
 }
