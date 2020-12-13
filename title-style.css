@@ -43,8 +43,8 @@ body
 
 h1
 {
-    font-family: Dizhitl;
-    font-style: initial;
+    font-family: 'Dizhitl';
+    font-style: normal;
     font-weight: 500;
     font-size: 3em;
     margin: 0;
@@ -69,8 +69,8 @@ h1
     background-color: #A9B6F9;
     bottom: 0;
     left: 0;
-    width: 50vw;
-    height: 50vh;
+    width: 80%;
+    height: 80%;
     clip-path: polygon(0% 100%, 0% 0%, 100% 100%);
 }
 
@@ -98,8 +98,8 @@ h1
     background-color: #f9a9a9;
     top: 0;
     left: 0;
-    width: 35vw;
-    height: 20vh;
+    width: 70%;
+    height: 70%;
     clip-path: polygon(0% 100%, 0% 0%, 100% 0%);
 }
 
@@ -108,7 +108,7 @@ h1
     position: absolute;
     top: 0;
     left: 0;
-    width: 50vw;
+    width: 40vw;
     height: 30vh;
     background-color: #ff2626;
     clip-path: polygon(0% 100%, 0% 0%, 100% 0%);
@@ -129,8 +129,8 @@ h1
     background-origin: content-box;
     bottom: 0;
     right: 0;
-    width: 60vw;
-    height: 60vh;
+    width: 80%;
+    height: 80%;
     clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
 }
 
@@ -139,8 +139,8 @@ h1
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 70vw;
-    height: 70vh;
+    width: 50vw;
+    height: 50vh;
     background-color: #EABD20;
     clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
     transition: 0.2s;
@@ -174,95 +174,5 @@ h1
     left: 60%;
     max-width: 50%;
     max-height: 25%;
-}
-
-@media screen and (max-height: 600px)
-{
-    .landing-buttons h1
-    {
-        position: absolute;
-        font-size: 5vh;
-        color: #F3F3F3;
-        overflow: hidden;
-        text-shadow: #303030 0 0 5px;
-        text-align: center;
-        align-content: center;
-        width: auto;
-        height: auto;
-    }
-
-    .about-button h1
-    {
-        top: 64%;
-        left: 5%;
-    }
-
-    .contact-button h1
-    {
-        top: 10%;
-        left: 5%;
-    }
-
-    .projects-button h1
-    {
-        top: 65%;
-        left: 50%;
-        max-width: 50%;
-        max-height: 25%;
-    }
-}
-
-@media screen and (max-width: 600px)
-{
-
-    .titlecard
-    {
-        background-color: #F3F3F3;
-        height: -16vh;
-        width: auto;
-        max-width: 70vw;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        padding: 5px;
-        text-align: center;
-    }
-
-    .titlecard p
-    {
-        margin: 5px;
-        font-size: 2vh;
-    }
-
-    .landing-buttons h1
-    {
-        position: absolute;
-        font-size: 6vw;
-        color: #F3F3F3;
-        overflow: hidden;
-        text-shadow: #303030 0 0 10px;
-        text-align: center;
-        align-content: center;
-    }
-
-    .about-button h1
-    {
-        top: 64%;
-        left: 5%;
-    }
-
-    .contact-button h1
-    {
-        top: 10%;
-        left: 5%;
-    }
-
-    .projects-button h1
-    {
-        top: 65%;
-        left: 50%;
-        max-width: 50%;
-        max-height: 25%;
-    }
+    overflow: visible;
 }
