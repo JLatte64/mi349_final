@@ -41,6 +41,7 @@ body
     padding: 2%;
     max-width: 100px;
     color: #F3F3F3;
+    z-index: 1;
 }
 
 .landing-buttons
@@ -147,9 +148,8 @@ body
 #projects-inside
 {
     position: absolute;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-image: url("content/projects-bg.png");
-    background-color: #E6CA69;
     background-origin: content-box;
     bottom: 0;
     right: 0;
@@ -177,7 +177,6 @@ h1
     font-family: 'Dizhitl SemiBold', 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
-    overflow: hidden;
     margin: 0;
     color: #303030;
 }
@@ -187,9 +186,8 @@ h1
     position: absolute;
     color: #F3F3F3;
     text-shadow: #303030 0 0 10px;
-    top: 50%;
-    max-width: 50%;
-    left: 25%;
-    margin: auto;
-    z-index: 2;
+    top: 40%;
+    left: 30%;
+    max-width: 30%;
+    z-index: 1;
 }
