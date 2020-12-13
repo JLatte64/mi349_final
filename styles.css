@@ -49,50 +49,42 @@ h1
     margin: 0;
 }
 
-.about-button-outline
+.landing-buttons
 {
-    position: absolute;
-    bottom: -1vh;
-    left: -1vw;
-    width: 0;
-    height: 0;
-    border-top: 40vh solid transparent;
-    border-left: 30vw solid white;
-    border-bottom: 40vh solid white;
-    border-right: 30vw solid transparent;
-}
-
-.about-button-inside
-{
-    position: absolute;
-    bottom: -40vh;
-    left: -30vw;
-    width: 0;
-    height: 0;
-    border-top: 33.3vh solid transparent;
-    border-left: 25vw solid red;
-    border-bottom: 33.3vh solid red;
-    border-right: 25vw solid transparent;
+    width: 100vw;
+    height: 100vh;
 }
 
 .landing-buttons h1
 {
-    position: absolute;
-    text-align: center;
-    font-size: 3em;
-    bottom: -3.5em;
-    left: -4em;
-    line-height: 1em;
+    background-color: black;
+    left: 0;
+    bottom: 0;
+    position: relative;
     color: #F3F3F3;
 }
 
-.landing-buttons section
+.about-button span
 {
-    transition: 0.2s ease-in-out;
+    position: absolute;
+    background-image: url("content/pfp.png");
+    background-repeat: no-repeat;
+    background-color: #A9B6F9;
+    bottom: 0;
+    left: 0;
+    width: 50vw;
+    height: 50vh;
+    clip-path: polygon(0% 100%, 0% 30%, 70% 100%);
+    
 }
 
-.landing-buttons section:hover
+.about-button
 {
-    transform: translate(1vw, -1vh);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #5678F3;
+    clip-path: polygon(0% 100%, 0% 50%, 50% 100%);
 }
-
