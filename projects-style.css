@@ -49,16 +49,13 @@ body
     font-weight: normal;
     font-size: 1.5em;
     margin: auto;
-    text-align: center;
-    color: #303030;
     max-width: 95%;
     height: auto;
+    overflow: hidden;
 }
 
 .content
 {
-    width: auto;
-    height: 100vh;
     margin: auto;
     padding-top: 50px;
 }
@@ -78,30 +75,35 @@ body
 {
     width: 35vw;
     max-width: 400px;
-    height: auto;
+    min-height: 250px;
     background-color: #F3F3F3;
     margin: 10px;
     color: #303030;
+    text-align: center;
+    box-shadow: #888888 0 0 5px;
 }
 
 .content li p
 {
-    height: 25%;
-    max-width: 100%;
+    max-width: 95%;
+    margin: 5px;
+    max-height: 25%;
     background-color: #F3F3F3;
     font-family: 'Dizhitl Regular', 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1em;
     color: #303030;
-    margin: auto;
+    
     text-align: center;
-    max-height: 1vh;
+    
 }
 
-.content ul li img
+.content li img
 {
-    max-height: 50%;
-    max-width: 90%;
-    margin: 0 auto;
+    max-height: 60%;
+    max-width: 95%;
+    display: block;
+    margin: auto;
+    padding: 0;
 }
