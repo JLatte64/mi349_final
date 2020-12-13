@@ -18,16 +18,17 @@ body
     padding: 0;
     top: 0;
     left: 0;
-    height: 75px;
+    height: 6vw;
 }
 
 .title h1
 {
-    font-size: 3em;
-    margin: 0;
+    font-size: 4vw;
     color: #F3F3F3;
     text-align: center;
-    margin: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .title p
@@ -35,11 +36,11 @@ body
     font-family: 'Dizhitl Regular', 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 1em;
+    font-size: 1.6vw;
     color: #303030;
     margin: auto;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 3vw;
 }
 
 .content ul h2
@@ -57,7 +58,7 @@ body
 .content
 {
     margin: auto;
-    padding-top: 50px;
+    padding-top: 5vw;
 }
 
 .content ul
