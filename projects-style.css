@@ -1,0 +1,107 @@
+body
+{
+    background-image: url('content/yellowtrees.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Dizhitl SemiBold', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.title
+{
+    background-color: #EABD20;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    height: 75px;
+}
+
+.title h1
+{
+    font-size: 3em;
+    margin: 0;
+    color: #F3F3F3;
+    text-align: center;
+    margin: auto;
+}
+
+.title p
+{
+    font-family: 'Dizhitl Regular', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    color: #303030;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.content ul h2
+{
+    font-family: 'Dizhitl SemiBold', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+    margin: auto;
+    text-align: center;
+    color: #303030;
+    max-width: 95%;
+    height: auto;
+}
+
+.content
+{
+    width: auto;
+    height: 100vh;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.content ul
+{
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.content li
+{
+    width: 35vw;
+    max-width: 400px;
+    height: auto;
+    background-color: #F3F3F3;
+    margin: 10px;
+    color: #303030;
+}
+
+.content li p
+{
+    height: 25%;
+    max-width: 100%;
+    background-color: #F3F3F3;
+    font-family: 'Dizhitl Regular', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    color: #303030;
+    margin: auto;
+    text-align: center;
+    max-height: 1vh;
+}
+
+.content ul li img
+{
+    max-height: 50%;
+    max-width: 90%;
+    margin: 0 auto;
+}
