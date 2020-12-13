@@ -43,9 +43,9 @@ body
 
 h1
 {
-    font-family: 'Dizhitl';
+    font-family: 'Dizhitl Regular';
     font-style: normal;
-    font-weight: 500;
+    font-weight: normal;
     font-size: 3em;
     margin: 0;
 }
