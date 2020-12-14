@@ -76,6 +76,8 @@ body
     justify-content: center;
     align-items: flex-start;
     padding: 0;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .content li
